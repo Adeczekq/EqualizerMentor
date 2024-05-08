@@ -1,39 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.background {
+  background-image: url(./assets/bg-main-desktop.png);
+}
+.background-tablet {
+  background-image: url(./assets/bg-main-tablet.png);
+}
+.background-mobile {
+  background-image: url(./assets/bg-main-mobile.png);
+}
+.bg-image {
+  left: 450px;
+  top: 0;
+}
 
-.bg-image{
-    left:325px;
-    top:0;
+.phone-section-height {
+  height: 600px;
 }
-.phone-section-height{
-    height: 600px;
+.max-width-50vw {
+  max-width: 50vw;
 }
-.max-width-h1{
-    max-width:1015px;
+.max-width-40vw {
+  max-width: 40vw;
 }
-.max-width-p{
-    max-width:825px;
+
+.header-height {
+  height: 90vh;
 }
-.header-height{
-    height:90vh;
+.text-h2 {
+  font-size: 2.5rem;
 }
-.text-h2{
-    font-size:2.5rem;
+.text-price {
+  font-size: 4rem;
 }
-.text-price{
-    font-size:4rem;
+
+.max-con-peach {
+  max-width: 446px;
 }
-.max-width-section{
-    max-width:1100px;
+.phone-margin {
+  margin-top: -213px;
 }
-.max-con-peach{
-    max-width:446px;
-}
-.phone-margin{
-    margin-top:-213px;
-}
-.form-margin{
-    margin-bottom:-117px;
-    max-width:446px;
+.form-margin {
+  margin-bottom: -117px;
+  max-width: 446px;
 }
